@@ -11,4 +11,11 @@ h1 {
 	border-radius:0 20px;
 }
 
+.contenedorIngredientes{
+	border: solid 5px #ffbd33;
+	border-radius: 5px;
+	padding: 15px;
+	
+}
+
 
