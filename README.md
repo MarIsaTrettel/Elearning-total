@@ -13,3 +13,12 @@ Cambiar el color de todos los párrafos (etiqueta p) a verde (#0ca001).
 Aumentar el tamaño de la fuente a 24px, solo del elemento con id "destacado".
 Cambiar la familia tipográfica por Arial a los títulos (etiqueta h2).
 Crear un vínculo con la referencia "https://www.lipsum.com".
+
+Unidad 5
+Partiendo del siguiente array: 
+var letras = ['T', 'R', 'W', 'I', 'U', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'A', 'O'];
+Elaborar un pequeño script que: 
+Le pida al usuario que ingrese un número entre 0 y 25, y una letra, y las almacene cada dato en una variable. (Pista: prompt() ) 
+En primer lugar (y en una sola instrucción) se debe comprobar si el número es menor que 0 o mayor que 25. Si ese es el caso, se muestra un mensaje al usuario indicando que el número proporcionado no es válido y el programa no muestra más mensajes.
+Si el número es válido, se calcula la letra que le corresponde en el array.
+Una vez calculada la letra, se debe comparar con la letra indicada por el usuario. Si no coinciden, se muestra un mensaje al usuario diciéndole que la letra que “Ha perdido”. En otro caso, se muestra un mensaje indicando que el número y la letra coinciden y que “Ha ganado”.
