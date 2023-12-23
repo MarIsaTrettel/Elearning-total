@@ -1,7 +1,9 @@
 var letras = ['T', 'R', 'W', 'I', 'U', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E', 'A', 'O'];
 
-var numeroUsuario = prompt("Ingrese un número");
-var letraUsuario = prompt ("Ingrese una letra en mayúscula")
+var numeroUsuario = prompt("Ingrese un número entre 0 y 25");
+var letraUsuario = prompt("Ingrese una letra")
+
+letraUsuario = letraUsuario.toUpperCase()
 
 if (numeroUsuario > 25 || numeroUsuario < 0) {
 
