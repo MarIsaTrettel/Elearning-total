@@ -11,4 +11,33 @@ h1 {
 	border-radius:0 20px;
 }
 
+.container{
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+
+}
+
+.btn{
+	width: 120px;
+	height: 60px;
+	border-radius: 5px;
+	background-color: #ffbd33;
+}
+
+article{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 350px;
+	padding: 15px;
+	border-radius: 20px 130px;
+	box-shadow: 0px 5px 25px 0px rgba(0,0,0,0.75);
+	
+}
+
+
+
 

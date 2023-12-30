@@ -1,5 +1,5 @@
 
-function CalculoIva(){
+const calculoIva = () => {
     let numero = prompt("Ingrese un numero: ")
     document.getElementById("respuesta").innerHTML = "El numero sin IVA es: " + numero
 
