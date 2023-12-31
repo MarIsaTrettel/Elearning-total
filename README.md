@@ -30,3 +30,11 @@ Declarar una función que le pida al usuario ingresar un número (pueden utiliza
 Calcular el iva (21%) del número ingresado. 
 Luego mostrar en pantalla el valor total con y sin el iva.
 La función debe ejecutarse desde el botón "Calcular IVA" en el archivo .html
+
+Unidad 7
+Abrir el archivo evaluacion7.html y guardarlo como evaluacion7_apellido.html (ej. evaluacion7_rodriguez.html)
+Desarrollar un formulario validado con las siguientes características:
+Al menos 3 campos.
+3 de esos campos deben ser obligatorios.
+Utilizar como mínimo 3 tipos de input distintos (por ejemplo: email, date, number).
+Un pattern.
