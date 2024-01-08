@@ -11,8 +11,7 @@ body {
 	margin: 0 20%;
 }
 
-
-.UnidaTitle {
+.UnidadTitle {
 	color: #FFFFFF;
 	background-color: #ffbd33;
 	padding: 10px;
@@ -38,7 +37,6 @@ body {
 	background: none;
 	padding: 0.625rem;
 	border: 2px solid #030104;
-
 }
 
 .formEjercicio label {
@@ -81,4 +79,3 @@ body {
 	background-color: #ffbd33;
 	margin: 5% 100%;
 }
-
