@@ -38,3 +38,10 @@ Al menos 3 campos.
 3 de esos campos deben ser obligatorios.
 Utilizar como mínimo 3 tipos de input distintos (por ejemplo: email, date, number).
 Un pattern.
+
+Unidad 8
+Abrir el archivo evaluacion8.html y guardarlo como evaluacion8_apellido.html (ej. evaluacion8_morales.html).
+Implementar una aplicación desarrollada bajo una librería de Javascript (Jquey, mootols, Dojo, Prototype, etc), 
+que optimice el documento ejecutado. Puede utilizarse la/s que se proveen en la actual unidad, o alguna otra externa. 
+La misma debe funcionar correctamente.
+Agregar los elementos de HTML necesarios para la implementación de la librería.
