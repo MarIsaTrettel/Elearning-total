@@ -33,7 +33,7 @@ body {
 }
 
 .formEjercicio input {
-	color: rgb(205, 203, 203);
+	color:#030104;
 	background: none;
 	padding: 0.625rem;
 	border: 2px solid #030104;
@@ -45,7 +45,7 @@ body {
 	left: 0;
 	translate: 0.625rem 0.625rem;
 	color: #030104;
-	background-color: #efe4f7;
+	background-color: #fbd073;
 	padding-inline: 0.25rem;
 	border: 2px solid transparent;
 	pointer-events: none;
@@ -68,8 +68,9 @@ body {
 	display: none;
 }
 
-.fechaNac {
+#fechaNac {
 	width: 170px;
+
 }
 
 #btnAceptar {

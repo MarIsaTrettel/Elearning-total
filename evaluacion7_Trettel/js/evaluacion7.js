@@ -1,13 +1,14 @@
 
-/* var ejecutarForm = () => {
-    let datoNombre = document.forms[0].elements[0].value
-    let datoApellido = document.forms[0].elements[1].value
+var ejecutarForm = () => {
+    let datoUsuario = document.forms[0].elements[0].value
+    let datoNombre = document.forms[0].elements[1].value
+    let datoApellido = document.forms[0].elements[2].value
     let datoEdad = document.forms[0].elements[3].value
     let datoFechaDeNacimiento = document.forms[0].elements[4].value
     let datoEmail = document.forms[0].elements[5].value
 
-    alert("Nombre: " + datoNombre + "\nApellido: " + datoApellido + "\nEdad: " + datoEdad + "\nFecha de nacimiento: " + datoFechaDeNacimiento + "\nEmail: " + datoEmail)
-} */
+    alert("Usuario: " + datoUsuario + "\nNombre: " + datoNombre + "\nApellido: " + datoApellido + "\nEdad: " + datoEdad + "\nFecha de nacimiento: " + datoFechaDeNacimiento + "\nEmail: " + datoEmail)
+}
 
 var validacion = () => {
     let password1 = document.getElementById('password1')
@@ -19,7 +20,7 @@ var validacion = () => {
         password2.classList.add('error')
     } else {
         password1.setCustomValidity("")
-        /* ejecutarForm() */
+        ejecutarForm()
     }
 }
 
