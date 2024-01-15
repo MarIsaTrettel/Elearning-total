@@ -27,3 +27,13 @@ var validacion = () => {
 let btn = document.querySelector('#btnAceptar')
 
 btn.onclick = validacion
+
+function iniciar(){
+    document.formEjercicio.addEventListener("invalid", validacion, true); //TRUE envía un elemento en específico
+}
+
+function validacion(e){
+e.style.backgroundColor = red;
+}
+
+window.addEventListener("load", iniciar(), false) //FALSE No envía un elemento en específico

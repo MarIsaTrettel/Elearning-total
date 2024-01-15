@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+.contenedorLetras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px 0 -180px 0;
+    gap: 10px;
+}
+
+.letras {
+    width: 2rem;
+    height: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    -webkit-box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, .2);
+    -moz-box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, .2);
+    box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, 0.2);
+    background-color: white;
+}
+
+.letrasVerdes {
+    color: green;
+    font-weight: bolder;
+}
+
+#btnAceptar{
+    width: 15px;
+    background-color: green;
+}
