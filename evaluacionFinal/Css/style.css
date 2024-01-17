@@ -1,35 +1,91 @@
 * {
     margin: 0;
     padding: 0;
-
+    box-sizing: border-box;
 }
 
-.contenedorLetras {
+body {
+    background-color: rgb(10, 3, 48);
+}
+
+#estiloFondo {
+    background-image: url(../img/fantasy-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    width: 80%;
+    height: 500px;
+    border-radius: 30px;
+    border: 3px solid rgb(17, 4, 109);
+    margin: 2% 10%;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 200px 0 -180px 0;
-    gap: 10px;
 }
 
+.fondoJuego{
+    min-height: 800px;
+}
+
+.contenedorLetras {
+    gap: 10px;
+    filter: drop-shadow(0 0 0.5rem rgba(8, 0, 0, 0.534));
+}
+.palabra1{
+    margin: 10% 45%;
+}
 .letras {
-    width: 2rem;
-    height: 2rem;
+    width: 80px;
+    height: 180px;
+    margin-left: 10px;
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
-    -webkit-box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, .2);
-    -moz-box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, .2);
-    box-shadow: inset 5px 5px 4px 23px rgba(77, 76, 77, 0.2);
-    background-color: white;
+    font-size: 5rem;
+    border-radius: 5px;
+    border: 0;
+    background: rgba(250, 250, 249, 0.39);
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(0 0 0.5rem rgba(43, 20, 220, 0.641));
 }
 
 .letrasVerdes {
-    color: green;
+    background-color: green;
     font-weight: bolder;
+    width: 100px;
 }
 
 #btnAceptar{
-    width: 15px;
-    background-color: green;
+    width: 80px;
+    margin: 10px 200px;
+}
+
+#ganaste {
+    width: 200px;
+    margin: 10px 180px;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 220, 0);
+    filter: drop-shadow(0 0 0.5rem rgba(8, 0, 0, 0.967));
+    color: white;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#Reset,
+#meRindo,
+.letraIntentos,
+#areaContador,
+#btnAceptar
+{
+    border: 0;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    background-color: rgba(245, 245, 220, 0);
+    filter: drop-shadow(0 0 0.5rem rgba(8, 0, 0, 0.967))
 }

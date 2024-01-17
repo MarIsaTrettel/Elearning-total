@@ -9,48 +9,42 @@
 </head>
 
 <body>
-    <section class="contenedorLetras">
-        <form id="palabra1">
-        <input type="text" class="letras" id="0" maxlength="1">
-        <input type="text" class="letras" id="1" maxlength="1">
-        <input type="text" class="letras" id="2" maxlength="1">
-        <input type="text" class="letras" id="3" maxlength="1">
-        <input type="text" class="letras" id="4" maxlength="1">
-        
-        <input type="submit" id="btnAceptar">
-    </form>
-    </section>
-    
-    <!-- <section class="contenedorLetras">
-        <input type="text" class="letras" name="letra1" maxlength="1">
-        <input type="text" class="letras" name="letra2" maxlength="1">
-        <input type="text" class="letras" name="letra3" maxlength="1">
-        <input type="text" class="letras" name="letra4" maxlength="1">
-        <input type="text" class="letras" name="letra5" maxlength="1">
-    </section>
-    <section class="contenedorLetras">
-        <input type="text" class="letras" name="letra1" maxlength="1">
-        <input type="text" class="letras" name="letra2" maxlength="1">
-        <input type="text" class="letras" name="letra3" maxlength="1">
-        <input type="text" class="letras" name="letra4" maxlength="1">
-        <input type="text" class="letras" name="letra5" maxlength="1">
-    </section>
-    <section class="contenedorLetras">
-        <input type="text" class="letras" name="letra1" maxlength="1">
-        <input type="text" class="letras" name="letra2" maxlength="1">
-        <input type="text" class="letras" name="letra3" maxlength="1">
-        <input type="text" class="letras" name="letra4" maxlength="1">
-        <input type="text" class="letras" name="letra5" maxlength="1">
-    </section>
-    <section class="contenedorLetras">
-        <input type="text" class="letras" name="letra1" maxlength="1">
-        <input type="text" class="letras" name="letra2" maxlength="1">
-        <input type="text" class="letras" name="letra3" maxlength="1">
-        <input type="text" class="letras" name="letra4" maxlength="1">
-        <input type="text" class="letras" name="letra5" maxlength="1">
-    </section> -->
+    <main id="estiloFondo">
+        <section id="fondoJuego">
 
-    <script src="./Js/script.js"></script>
+
+            <article class="contenedorLetras">
+                <form id="palabra1">
+                    <input type="text" class="letras" id="0" maxlength="1">
+                    <input type="text" class="letras" id="1" maxlength="1">
+                    <input type="text" class="letras" id="2" maxlength="1">
+                    <input type="text" class="letras" id="3" maxlength="1">
+                    <input type="text" class="letras" id="4" maxlength="1">
+                    <br><br>
+                    <input type="submit" id="btnAceptar" value="ACEPTAR">
+                </form>
+            </article>
+
+            <article>
+                
+
+            </article>
+            <article class="btnContainer">
+                <input type="button" id="meRindo" onclick="meRindo()" value="ME RINDO">
+                <input type="button" id="Reset" onclick="borrarValue()" value="REINICIAR">
+                <p class="letraIntentos">INTENTOS:</p>
+                <p id="areaContador"></p>
+
+            </article>                
+                    <section>
+            <h3 id="ganaste">
+                
+            </h3></section>
+        </section>
+
+        
+        <script src="./Js/script.js"></script>
+    </main>
 </body>
 
 </html>
