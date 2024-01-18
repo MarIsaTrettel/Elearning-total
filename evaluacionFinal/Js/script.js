@@ -32,7 +32,8 @@ var listado = [
     "FERIA",
     "FETOS",
     "FIJOS",
-    "FILAS"
+    "FILAS",
+    "JUEGO"
 ]
 
 
@@ -52,7 +53,6 @@ var contador = 0;
 palabra = palabra.toUpperCase();
 
 function letrasAcertadas() {
-
     contador++;
     pElement.textContent = contador;
 

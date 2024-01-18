@@ -5,28 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Yanone+Kaffeesatz:wght@700&display=swap"
+        rel="stylesheet">
     <title>Evaluacion final</title>
 </head>
 
 <body>
     <main id="estiloFondo">
         <section id="fondoJuego">
-
-
             <article class="contenedorLetras">
-                <form id="palabra1">
-                    <input type="text" class="letras" id="0" maxlength="1">
-                    <input type="text" class="letras" id="1" maxlength="1">
-                    <input type="text" class="letras" id="2" maxlength="1">
-                    <input type="text" class="letras" id="3" maxlength="1">
-                    <input type="text" class="letras" id="4" maxlength="1">
+                <form id="palabra1" name="palabra1" method="get">
+                    <input type="text" class="letras" id="0" maxlength="1" onblur="validacion(0)">
+                    <input type="text" class="letras" id="1" maxlength="1" onblur="validacion(1)">
+                    <input type="text" class="letras" id="2" maxlength="1" onblur="validacion(2)">
+                    <input type="text" class="letras" id="3" maxlength="1" onblur="validacion(3)">
+                    <input type="text" class="letras" id="4" maxlength="1" onblur="validacion(4)">
                     <br><br>
-                    <input type="submit" id="btnAceptar" value="ACEPTAR">
+                    <input type="submit" id="btnAceptar" value="ACEPTAR" onclick="verificar()">
                 </form>
             </article>
 
             <article>
-                
+
 
             </article>
             <article class="btnContainer">
@@ -35,15 +38,15 @@
                 <p class="letraIntentos">INTENTOS:</p>
                 <p id="areaContador"></p>
 
-            </article>                
-                    <section>
-            <h3 id="ganaste">
-                
-            </h3></section>
+            </article>
+            <section>
+                <P id="ganaste"></P>
+            </section>
         </section>
 
-        
+
         <script src="./Js/script.js"></script>
+        <script src="./Js/validacion.js"></script>
     </main>
 </body>
 
