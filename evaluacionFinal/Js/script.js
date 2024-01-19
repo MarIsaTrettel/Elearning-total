@@ -1,8 +1,24 @@
 document.getElementById("palabra1").addEventListener("click", function (event) {
     event.preventDefault()
 });
-
-alert("El juego consiste en adivinar la palabra de cinco letras")
+Swal.fire({
+    title: "El juego consiste en adivinar la palabra de cinco letras",
+    showClass: {
+      popup: `
+        animate__animated
+        animate__fadeInUp
+        animate__faster
+      `
+    },
+    hideClass: {
+      popup: `
+        animate__animated
+        animate__fadeOutDown
+        animate__faster
+      `
+    }
+  });
+/* alert("El juego consiste en adivinar la palabra de cinco letras") */
 var listado = [
     "AGUDO",
     "ALADO",
@@ -74,7 +90,19 @@ function letrasAcertadas() {
     }
 
     if (j == 5) {
-        document.getElementById("ganaste").innerHTML = "¡¡ADIVINASTE!!";
+        Swal.fire({
+            title: " ¡¡ADIVINASTE!!",
+            width: 600,
+            padding: "3em",
+            color: "#716add",
+            background: "#fff url(https://sweetalert2.github.io/images/trees.png)",
+            backdrop: `
+              rgba(0,0,123,0.4)
+              url("https://sweetalert2.github.io/images/nyan-cat.gif")
+              left top
+              no-repeat
+            `
+          });
     }
 
 }
