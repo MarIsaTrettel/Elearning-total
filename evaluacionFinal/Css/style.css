@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-    font-family: 'Yanone Kaffeesatz', sans-serif;;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 body {
@@ -27,7 +27,7 @@ body {
     align-items: center;
 }
 
-.fondoJuego{
+.fondoJuego {
     min-height: 800px;
 }
 
@@ -35,9 +35,11 @@ body {
     gap: 10px;
     filter: drop-shadow(0 0 0.5rem rgba(8, 0, 0, 0.534));
 }
-.palabra1{
+
+.palabra1 {
     margin: 10% 45%;
 }
+
 .letras {
     width: 90px;
     height: 180px;
@@ -59,10 +61,9 @@ body {
     width: 100px;
 }
 
-#btnAceptar{
+#btnAceptar {
     width: 80px;
     margin: 10px 200px;
-    
 }
 
 #ganaste {
@@ -74,7 +75,7 @@ body {
     color: white;
 }
 
-.btnContainer{
+.btnContainer {
     display: flex;
     justify-content: space-evenly;
 }
@@ -83,8 +84,7 @@ body {
 #meRindo,
 .letraIntentos,
 #areaContador,
-#btnAceptar
-{
+#btnAceptar {
     border: 0;
     color: white;
     font-size: 1.5rem;
@@ -93,6 +93,6 @@ body {
     filter: drop-shadow(0 0 0.5rem rgba(8, 0, 0, 0.967))
 }
 
-.error{
-    color:red;
+.error {
+    color: red;
 }

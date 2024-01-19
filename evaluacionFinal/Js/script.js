@@ -4,21 +4,21 @@ document.getElementById("palabra1").addEventListener("click", function (event) {
 Swal.fire({
     title: "El juego consiste en adivinar la palabra de cinco letras",
     showClass: {
-      popup: `
+        popup: `
         animate__animated
         animate__fadeInUp
         animate__faster
       `
     },
     hideClass: {
-      popup: `
+        popup: `
         animate__animated
         animate__fadeOutDown
         animate__faster
       `
     }
-  });
-/* alert("El juego consiste en adivinar la palabra de cinco letras") */
+});
+
 var listado = [
     "AGUDO",
     "ALADO",
@@ -59,7 +59,7 @@ function getRandomIntInclusive(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1) + min);
-  }
+}
 k = k.toString();
 
 var palabra = listado[k];
@@ -102,7 +102,7 @@ function letrasAcertadas() {
               left top
               no-repeat
             `
-          });
+        });
     }
 
 }
@@ -115,7 +115,7 @@ function borrarValue() {
     window.location.reload()
 }
 
-function meRindo(){
+function meRindo() {
     document.getElementById("ganaste").innerHTML = "LA PALABRA ES: " + palabra;
 }
 
