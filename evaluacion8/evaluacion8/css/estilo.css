@@ -1,0 +1,83 @@
+body {
+	font-family: Calibri;
+	padding: 10px 20px;
+}
+
+.sectionForm {
+	display: flex;
+	justify-content: center;
+	width: 800px;
+	border: solid #ffbd33;
+	margin: 0 20%;
+	background-color: white;
+}
+
+.UnidadTitle {
+	color: #FFFFFF;
+	background-color: #ffbd33;
+	padding: 10px;
+	border-radius: 0 20px;
+}
+
+.FormTitle {
+	font-size: 4rem;
+	margin: 5% 0;
+}
+
+.error {
+	background-color: red !important;
+}
+
+.formEjercicio {
+	position: relative;
+	margin: 10% 22%;
+}
+
+.formEjercicio input {
+	color:#030104;
+	background: none;
+	padding: 0.625rem;
+	border: 2px solid #030104;
+}
+
+.formEjercicio label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	translate: 0.625rem 0.625rem;
+	color: #030104;
+	background-color: #fbd073;
+	padding-inline: 0.25rem;
+	border: 2px solid transparent;
+	pointer-events: none;
+	transition: translate 250ms,
+		background-color 250ms,
+		border-color 250ms;
+}
+
+.formEjercicio:focus-within label,
+.formEjercicio:not(:has(:placeholder-shown)) label {
+	translate: 0.625rem -1rem;
+	border-color: #030104;
+}
+
+.field ::placeholder {
+	color: transparent;
+}
+
+.fechaNac[type="date"]::-webkit-calendar-picker-indicator {
+	display: none;
+}
+
+#fechaNac {
+	width: 170px;
+
+}
+
+#btnAceptar {
+	width: 120px;
+	height: 40px;
+	border-radius: 5px;
+	background-color: #ffbd33;
+	margin: 5% 100%;
+}
